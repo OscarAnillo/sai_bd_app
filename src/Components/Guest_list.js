@@ -11,7 +11,7 @@ export const Guestlist = () => {
         setDataList(res.data);
       })
       .catch(console.log);
-  }, []);
+  }, [setDataList]);
 
   const dataTest = dataList.length;
 
