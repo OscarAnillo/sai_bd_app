@@ -18,7 +18,7 @@ function App() {
       return;
     }
     axios
-      .post("http://localhost:3500/api/guests", {
+      .post("https://saibdappapi-production.up.railway.app/api/guests", {
         content: userInput,
       })
       .then((res) => {
