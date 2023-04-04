@@ -3,6 +3,8 @@
 * {
   margin: 0;
   padding: 0;
+  list-style: none;
+  text-decoration: none;
 }
 
 .App {
@@ -81,5 +83,20 @@ form button {
   padding-top: .5em;
   width: 90%;
   margin: 0 auto;
+}
 
+/* GuestList */
+.div-guest {
+  min-height: 100vh;
+  width: 90%;
+  margin: 1em auto;
+}
+.div-guest h1 {
+  font-family: 'Lily Script One', cursive;
+}
+.map-item {
+  margin: .5em 0;
+}
+.map-item li {
+  font-family: 'Poppins', sans-serif;
 }
